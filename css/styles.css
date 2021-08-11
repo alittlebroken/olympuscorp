@@ -1,0 +1,74 @@
+/* standard styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  font-family: 'Spartan', sans-serif;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  width: 100%;
+  background-image: url('../images/header-002.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  text-align: center;
+  width: 100%;
+
+  color: white;
+  padding: 10px;
+}
+header h3 {
+  text-align: center;
+  width: 100%;
+}
+
+/* Main content container */
+.container {
+  padding: 25px;
+  display: flex;
+  flex-flow: column;
+  width: 1024px;
+  margin: auto;
+}
+
+/* page styling */
+p {
+  padding: 15px;
+}
+
+/* naviagtion */
+nav {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+}
+
+nav li a:hover {
+  font-weight: 700;
+}
