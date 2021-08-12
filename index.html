@@ -32,7 +32,7 @@
           <li><a href="#values">Values</a></li>
           <li><a href="#missions">Missions</a></li>
           <li><a href="#vehicles">Vehicles</a></li>
-          <li><a href="#success">Success</a></li>
+          <li><a href="#success">Team</a></li>
           <li><a href="#bookings">Bookings</a></li>
         </ul>
       </nav>
@@ -180,12 +180,34 @@
 
       </section>
 
-      <section id="success">
-        <h2>Successful Missions</h2>
+      <section id="team">
+        <h2>Olympus Corp Team</h2>
+        <p>
+
+        </p>
       </section>
 
       <section id="bookings">
         <h2>Bookings</h2>
+        <p>
+          Olympus Corp is now offering chartered flights upto the recreation dome
+          at the Olmpus moon base.<br><br>
+          Register your interest below as interest is high.
+        </p>
+        <form name="register-interest" class="form-container">
+          <label for="fullname">Name:</label>
+          <input type="text" name="fullname" required>
+          <label for="email">Email:</label>
+          <input type="email" name="email" required>
+          <label for="journey-type">Journey Type:</label>
+          <input type="text" list="journey-types" name="journey-type">
+          <datalist id="journey-types" for="journey-type">
+            <option value="10 orbits"></option>
+            <option value="1 week stay"></option>
+            <option value="2 week stay"></option>
+          </datalist>
+          <button>Register Interest</button>
+        </form>
       </section>
 
     </div>
