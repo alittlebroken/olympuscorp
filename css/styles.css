@@ -131,6 +131,52 @@ nav li a:hover {
   padding: 0;
 }
 
+/* mission styling */
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+  padding: 15px;
+}
+
+.mission {
+  border: 5px solid black;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('../images/mission-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+}
+
+.mission label {
+  font-weight: bold;
+}
+
+.mission-info-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.mission-info-left {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  padding: 15px;
+}
+
 /* form styling */
 .form-container {
   width: 50%;
@@ -148,7 +194,7 @@ form label {
 form input {
   padding: 10px;
   border-radius: 5px;
-  border: 1px thin black;
+  border: 1px solid black;
 }
 
 form button {
