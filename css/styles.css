@@ -12,6 +12,42 @@ html {
   font-family: 'Spartan', sans-serif;
 }
 
+p {
+  padding: 15px;
+  line-height: 1.5;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* standard containering */
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-center-both {
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Header styles */
 header {
   display: flex;
@@ -55,10 +91,6 @@ h2 {
 }
 
 /* page styling */
-p {
-  padding: 15px;
-  line-height: 1.5;
-}
 
 section h2 {
   width: 100%;
@@ -141,40 +173,17 @@ nav li a:hover {
   padding: 15px;
 }
 
-.mission {
-  border: 5px solid black;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.mission-image {
   background-image: url('../images/mission-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px;
 }
 
-.mission label {
-  font-weight: bold;
-}
-
-.mission-info-container {
-  display: flex;
-  flex-flow: row;
-}
-
-.mission-info-left {
-  display: flex;
-  flex-flow: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
-  padding: 15px;
+.mission-info {
+  display: inline-block;
+  margin-left: 15px;
 }
 
 /* form styling */
