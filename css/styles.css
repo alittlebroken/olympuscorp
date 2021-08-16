@@ -64,7 +64,6 @@ header {
 header h1 {
   text-align: center;
   width: 100%;
-
   color: white;
   padding: 10px;
 }
@@ -257,4 +256,56 @@ form button {
   width: 60%;
   border-radius: 0 10px 10px 0;
   font-size: 0.8em;
+}
+
+/* Media Query for mobile */
+@media only screen and (max-width: 400px){
+  .container {
+    width: 100%;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  nav ul {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+  nav ul li {
+    padding: 5px;
+  }
+
+  .missions {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mission-info p {
+    padding: 0;
+    margin: auto;
+  }
+
+  .mission-image {
+    padding: 0;
+    margin: auto;
+  }
+
+  .flex-box {
+    flex-wrap: nowrap;
+  }
+
+  .flex-rows {
+    flex-direction: column;
+  }
+
+  form button {
+    font-size: 1em;
+  }
+
 }
