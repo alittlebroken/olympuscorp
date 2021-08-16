@@ -91,6 +91,12 @@ h2 {
   font-weight: bolder;
 }
 
+h3, h4, h5, h6 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+}
+
 /* page styling */
 
 section h2 {
@@ -220,30 +226,35 @@ form button {
 
 /* Staff/Team Styling */
 
-#team p {
+#team {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .staff-card {
-  width: 650px;
-  height: 350px;
+  width: 450px;
+  height: 250px;
   display: flex;
   flex-direction: row;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .portrait {
-  width: 45%;
   border-right: 1px solid black;
-  background-color: darkred;
   border-radius: 10px 0 0 10px;
+  width: 40%;
 }
 
-.informational {
-  padding: 10px;
-  width: 55%;
+.staff-info {
+  padding: 5px;
+  width: 60%;
   border-radius: 0 10px 10px 0;
+  font-size: 0.8em;
 }
